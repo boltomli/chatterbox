@@ -8,7 +8,7 @@
 [![Alt Text](https://static-public.podonos.com/badges/insight-on-pdns-sm-dark.svg)](https://podonos.com/resembleai/chatterbox)
 [![Discord](https://img.shields.io/discord/1377773249798344776?label=join%20discord&logo=discord&style=flat)](https://discord.gg/rJq9cRJBJ6)
 
-_Made with ♥️ by <a href="https://resemble.ai" target="_blank"><img width="100" alt="resemble-logo-horizontal" src="https://github.com/user-attachments/assets/35cf756b-3506-4943-9c72-c05ddfa4e525" /></a>
+*Made with ♥️ by* <a href="https://resemble.ai" target="_blank"><img width="100" alt="resemble-logo-horizontal" src="https://github.com/user-attachments/assets/35cf756b-3506-4943-9c72-c05ddfa4e525" /></a>
 
 **Chatterbox** is a family of three state-of-the-art, open-source text-to-speech models by Resemble AI.
 
@@ -86,7 +86,7 @@ ta.save("test-english.wav", wav, model.sr)
 multilingual_model = ChatterboxMultilingualTTS.from_pretrained(device=device)
 
 french_text = "Bonjour, comment ça va? Ceci est le modèle de synthèse vocale multilingue Chatterbox, il prend en charge 23 langues."
-wav_french = multilingual_model.generate(spanish_text, language_id="fr")
+wav_french = multilingual_model.generate(french_text, language_id="fr")
 ta.save("test-french.wav", wav_french, model.sr)
 
 chinese_text = "你好，今天天气真不错，希望你有一个愉快的周末。"
